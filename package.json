@@ -1,0 +1,27 @@
+{
+  "name": "budget-tracker",
+  "version": "1.0.0",
+  "description": "Online/offline budget tracker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshherrera09/budget-tracker.git"
+  },
+  "author": "Josh Herrera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshherrera09/budget-tracker/issues"
+  },
+  "homepage": "https://github.com/joshherrera09/budget-tracker#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "lite-server": "^2.5.4",
+    "mongoose": "^5.10.11",
+    "morgan": "^1.10.0"
+  }
+}
