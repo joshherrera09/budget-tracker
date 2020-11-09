@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/glacier-beyond-53182',
+  process.env.MONGODB_URI || 'mongodb://localhost/populate',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
